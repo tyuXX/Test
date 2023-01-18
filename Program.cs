@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        
+        int x = int.Parse(Console.ReadLine());
+        Console.WriteLine(x*x);
+    }
+}
