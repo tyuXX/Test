@@ -3,7 +3,13 @@
     private static void Main(string[] args)
     {
         
-        int x = int.Parse(Console.ReadLine());
-        Console.WriteLine(x*x);
+        for(int i = 0;i<129;i++){
+            Thread th = Thread(thr);
+        }
+    }
+    public static void thr(){
+        for(;;){
+            Console.Write("#");
+        }
     }
 }
